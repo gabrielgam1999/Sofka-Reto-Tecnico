@@ -154,7 +154,7 @@ class Game {
             message = 'Perdiste :c , suerte la proxima';
         } else {
             // god ending
-            message = 'Felicitaciones :D , haz ganado ';
+            message = 'Felicitaciones :D , has ganado ';
         }
 
         let title = document.createElement('h2');
@@ -163,7 +163,7 @@ class Game {
 
         let points = document.createElement('p');
         points.classList.add('points');
-        points.innerHTML = `Obtuviste ${ game.point } puntos. Tenias ${ game.accumulatedPoints } puntos acumulados`;
+        points.innerHTML = `Obtuviste ${ game.point } puntos. Tenes ${ game.accumulatedPoints } puntos acumulados`;
         container.append(points);
 
         let reboot = document.createElement('button');

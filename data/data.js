@@ -168,7 +168,7 @@ const data = [{
                 ]
             },
             {
-                "question": "¿En que año se Independizo Uruguay?",
+                "question": "¿En que año se independizo Uruguay?",
                 "correct": "1825",
                 "choices": [
                     "1810",
