@@ -151,10 +151,10 @@ class Game {
 
         if (forced) {
             // bad ending
-            message = 'git gud';
+            message = 'Perdiste :c , suerte la proxima';
         } else {
             // god ending
-            message = 'winner, winner chicken dinner ';
+            message = 'Felicitaciones :D , haz ganado ';
         }
 
         let title = document.createElement('h2');
